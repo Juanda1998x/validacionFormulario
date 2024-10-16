@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fefefe;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+#registroForm{
+
+    background-color:#e6e8eb;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px #070606;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+label.inline{
+    display: inline-block;
+}
+
+input,select{
+    padding: 8px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+input[type="checkbox"]{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select{
+    width: 100%;
+}
+
+input[type="submit"]{
+    background-color: #f6e9b2;
+    box-shadow: 1px 1px 10px #070606;
+    cursor: pointer;
+    color: #070606;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    transition: .5s ease;
+}
+select{
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color:  #e6d587;
+}
+.error{
+    color: red;
+    font-size: 10px;
+}
